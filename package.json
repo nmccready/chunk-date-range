@@ -1,12 +1,13 @@
 {
-  "name": "chunk-date-range",
+  "name": "@znemz/chunk-date-range",
   "version": "1.0.0",
   "description": "Split a date range into chunks of equal size",
   "keywords": [],
-  "author": "segmentio <friends@segment.io>",
+  "author": "nmccready",
+  "originalAuthor": "segmentio <friends@segment.io>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/segmentio/chunk-dates.git"
+    "url": "git://github.com/nmccready/chunk-dates.git"
   },
   "dependencies": {
     "date-math": "0.0.1"
@@ -19,5 +20,8 @@
   "main": "index",
   "scripts": {
     "test": "mocha"
-  }
+  },
+  "files": [
+    "index.js"
+  ]
 }
